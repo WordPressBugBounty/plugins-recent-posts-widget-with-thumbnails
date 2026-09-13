@@ -1,12 +1,12 @@
 === Recent Posts Widget With Thumbnails ===
 Contributors: kybernetikservices,wpcooltools,Hinjiriyo
 Donate link: https://www.paypal.com/donate?hosted_button_id=NSEQX73VHXKS8
-Tags: images, posts list, recent posts, thumbnails, widget
-Requires at least: 2.9
-Requires PHP: 5.2
-Tested up to: 6.9
-Stable tag: 7.1.1
-License: GPLv2 or later
+Tags: recent posts, widget, thumbnails, featured image, sidebar
+Requires at least: 4.6
+Requires PHP: 5.6
+Tested up to: 7.1
+Stable tag: 7.2.0
+License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 List the most recent posts with post titles, thumbnails, excerpts, authors, categories, dates and more!
@@ -26,6 +26,14 @@ No huge widget with hundreds of options. This plugin is based on the well-known 
 The thumbnails will be built from the featured image of a post or of the first image in the post content. If there is neither a featured image nor a content image then you can define a default thumbnail.
 
 You can set the width and height of the thumbnails in the list. The thumbnails appear left-aligned to the post titles in left-to-right languages. In right-to-left languages they appear right-aligned.
+
+= Custom Post Type =
+
+If you want to list custom post types with the featured image, please check out our plugin [Ultimate Post List Pro](https://www.kybernetik-services.com/shop/wordpress/plugin/ultimate-post-list-pro/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-post-widgets-with-thumbnail&utm_content=readme).
+
+= Demo =
+
+You want to test Recent Posts Widget With Thumbnails before installing on your site? Try it out on your individual and free playground site and [click here](https://playground.wordpress.net/?theme=twentytwentyone&plugin=recent-posts-widget-with-thumbnails).
 
 = What users wrote =
 
@@ -188,7 +196,9 @@ If you have done your translation, please leave a comment in the [plugin's suppo
 
 = What are the requirements for this plugin? =
 
-The WordPress version should be at least 2.9 to use featured images.
+The WordPress version must be at least 4.6.
+
+The PHP version must be at least 5.6.
 
 The theme should support `wp_head()` in the HTML header section to print the CSS code for a beautiful alignment of the thumbnails.
 
@@ -220,7 +230,7 @@ If there is no text in the "Excerpt" box the plugin tries to build an excerpt vi
 
 = Where is the *.pot file for translating the plugin in any language? =
 
-There is not pot file coming anymore with the plugin. With version 7.1 the translation was moved to [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/recent-posts-widget-with-thumbnails/).
+There is no pot file coming anymore with the plugin. With version 7.1 the translation was moved to [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/recent-posts-widget-with-thumbnails/).
 If you want to contribute a translation of the plugin in your language it would be great!
 
 == Screenshots ==
@@ -229,6 +239,21 @@ If you want to contribute a translation of the plugin in your language it would 
 2. The second screenshot shows the widget on the Widget Management Page in the backend.
 
 == Changelog ==
+= 7.2.0 =
+* Added direct file access prevention
+* Avoided ambiguous WordPress global naming
+* Completed translation domains and literal strings
+* Added context for translators
+* Used WordPress-native utility functions
+* Enforced strict array comparisons
+* Improved accessibility for screen reader
+* Removed deprecated wp_get_sites usage
+* Raised minimum WordPress version to 4.6
+* Raised minimum PHP version to 5.6
+* Corrected the SQL placeholder usage for attachment lookups
+* Hardened escaping for widget settings and frontend output
+* Replaced direct CSS file operations with the WordPress Filesystem API
+* Replaced the direct attachment database query with the WordPress media API
 
 = 7.1.1 =
 * Restored PHP 5.x support
