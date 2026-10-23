@@ -36,8 +36,9 @@ If you want to list custom post types with the featured image, please check out 
 You want to test Recent Posts Widget With Thumbnails before installing on your site? Try it out on your individual and free playground site and [click here](https://playground.wordpress.net/?theme=twentytwentyone&plugin=recent-posts-widget-with-thumbnails).
 
 = What users wrote =
-
-* **"This plugin performs a simple task but one that I find to be invaluable."** [reviews](https://wordpress.org/support/topic/simple-but-invaluable-plugin/) by funkster on July 1, 2025
+* **"Displaying recent posts in the sidebar, is a core feature for my website and this plugin solves this requirement perfectly. But what i value most is, that although free, the service reacts fast and competent. Thanks!"** in the [reviews](https://wordpress.org/support/topic/great-plugin-great-service-122/) by HSeldon on October 10, 2026
+* **"It’s a great plugin; I use it on several of my websites to display a list of recent posts, and the best part is that it doesn’t just show text—it includes a post preview and a direct link to the post itself."** in the [reviews](https://wordpress.org/support/topic/i-love-it-1047/) by marjuanm on September 18, 2026
+* **"This plugin performs a simple task but one that I find to be invaluable."** in the [reviews](https://wordpress.org/support/topic/simple-but-invaluable-plugin/) by funkster on July 1, 2025
 * **"I just want to say thank you for developing such a good plugin."** in the [reviews](https://wordpress.org/support/topic/thanks-for-developing-such-a-great-plugin-4/) by modelaid on July 3, 2024
 * **"Excellent plugin!"** in the [reviews](https://wordpress.org/support/topic/excellent-plugin-8567/) by mystnick on April 18, 2023
 * **"... one of the dynamic and smart, yet admin and user optimized widget plugins ..."** in [How to Add Widgets and Start Using Them in WordPress Website?](https://www.sktthemes.org/wordpress-plugins/add-widgets-wordpress-website/) by SKT Posts Themes on September 3, 2020
@@ -58,9 +59,7 @@ You want to test Recent Posts Widget With Thumbnails before installing on your s
 
 Some users published video tutorials on YouTube:
 
-* [Class 09 - Working with Plugins (Recent Posts Widget With Thumbnails)](https://www.youtube.com/watch?v=dKoqcLBHhkM) by WordPress Learning Bangladesh on March 7, 2017
 * [Recent Posts Widget With Thumbnails Setup Tutorial - WordPress Lesson and Tip](https://www.youtube.com/watch?v=qS9WIeaMb6s) by Making a Website on April 17, 2016
-* [Add Recent Posts Widget with Thumbnail - WordPress](https://youtu.be/dqzz8NZc99Q) by eMediaCoach on August 15, 2015
 
 = Options you can set =
 
